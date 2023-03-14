@@ -12,6 +12,7 @@ module.exports = {
       },
       colors: {
         primary: '#F08E80',
+        lightBlack: '#242629',
       },
       backgroundImage: {
         doodle: "url('/assets/images/background-doodle.png')",
