@@ -8,10 +8,12 @@ const HeroSection = () => {
   }
 
   return (
-    <div className='relative flex min-h-[400px] items-center justify-center bg-black py-6 sm:min-h-[400px] md:min-h-[450px]'>
+    <div className='relative flex min-h-[500px] items-center justify-center bg-black pb-6 pt-10 md:min-h-[450px] md:pt-12'>
       <div>
         <div className='container relative z-10 flex flex-col justify-center gap-6 text-primary'>
-          <p className='text-4xl'>✋🏼ola</p>
+          <div className='mt-6 sm:mt-0'>
+            <p className='inline-block -rotate-45 text-4xl'>🖐️</p>
+          </div>
           <h1 className='max-w-[695px] text-2xl leading-normal md:text-3xl md:leading-10'>
             I&apos;m Sayekat Chakraborty — A highly motivated and creative UX
             designer with 3 years of experience in designing intuitive and

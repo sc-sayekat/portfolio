@@ -16,9 +16,9 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed top-0 z-20 min-h-0  w-full bg-[#0f0d0d26] backdrop-blur-3xl'>
+    <div className='fixed top-0 z-20 min-h-0 w-full bg-[#0f0d0d26] backdrop-blur-3xl'>
       <div className='container h-full'>
-        <div className='relative flex h-full py-2 md:items-center md:py-6'>
+        <div className='relative flex h-full py-2 text-primary md:items-center md:py-6'>
           {/* If there is any space in font name, add underscore instead of them */}
           <span className="text-bold  flex h-[45px]  items-center font-['Dancing_Script'] text-[24px] leading-tight text-primary md:h-auto">
             sayekat
@@ -26,8 +26,8 @@ const Navbar = () => {
           <ul
             className={
               open
-                ? 'mt-10 flex h-[200px] grow flex-col items-center gap-4  overflow-hidden transition-[height] duration-500 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:overflow-visible'
-                : 'mt-10 flex h-0 grow flex-col items-center gap-4  overflow-hidden transition-[height] duration-500 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:overflow-visible'
+                ? 'mt-10 flex h-[200px] grow flex-col items-center gap-4 overflow-hidden  transition-[height] duration-500 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:gap-12 md:overflow-visible'
+                : 'mt-10 flex h-0 grow flex-col items-center gap-4 overflow-hidden   transition-[height] duration-500 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:gap-12 md:overflow-visible'
             }>
             <li className='uppercase'>
               <a href='#'>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='h-fit'>
       <div className='container -mb-20 lg:-mb-32'>
-        <div className='relative z-10 flex items-center rounded-xl bg-primary p-8 md:p-8 lg:p-10'>
+        <div className='relative z-10 flex items-center rounded-xl bg-primary p-8 md:p-8 lg:px-16'>
           <h1 className='text-primary md:text-4xl  md:leading-normal lg:text-5xl lg:leading-snug'>
             Would like to Hire me! <br /> or just want to chat...
           </h1>
