@@ -11,7 +11,7 @@ module.exports = {
         },
       },
       colors: {
-        accent: '#F08E80',
+        primary: '#F08E80',
       },
       backgroundImage: {
         doodle: "url('/assets/images/background-doodle.png')",
@@ -20,6 +20,7 @@ module.exports = {
         primary: '#ffffff',
         secondary: '#94A1B2',
         link: '#D9BBFF',
+        accent: '#F08E80',
       },
     },
   },
