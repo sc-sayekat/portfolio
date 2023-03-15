@@ -26,8 +26,8 @@ const Navbar = () => {
           <ul
             className={
               open
-                ? 'mt-10 flex h-[200px] grow flex-col items-center gap-4 overflow-hidden  transition-[height] duration-500 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:gap-12 md:overflow-visible'
-                : 'mt-10 flex h-0 grow flex-col items-center gap-4 overflow-hidden   transition-[height] duration-500 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:gap-12 md:overflow-visible'
+                ? 'mt-10 flex h-[200px] grow flex-col items-center gap-4 overflow-hidden  transition-[height] duration-300 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:gap-12 md:overflow-visible'
+                : 'mt-10 flex h-0 grow flex-col items-center gap-4 overflow-hidden   transition-[height] duration-300 ease-in-out md:ml-auto md:mt-0 md:grow-0 md:flex-row md:gap-12 md:overflow-visible'
             }>
             <li className='uppercase'>
               <a href='#'>
