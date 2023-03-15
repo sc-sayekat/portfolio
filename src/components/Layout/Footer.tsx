@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='relative bg-black pb-12 md:pb-20'>
+      <div className='relative bg-[#16161A] pb-12 md:pb-20'>
         <div className='container relative z-10'>
           <div className='flex flex-col justify-center pt-28 lg:pt-44'>
             <div className='mb-12 md:mb-16'>
